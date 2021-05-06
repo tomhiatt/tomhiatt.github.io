@@ -1,0 +1,11 @@
+---
+title: " "
+pagetitle: "Tom Hiatt"
+---
+
+<link rel="stylesheet" href="styles.css" type="text/css">
+<link rel="stylesheet" href="academicicons/css/academicons.min.css"/>
+
+### All presentations are open for re-use. Enjoy.
+
+[Presentation library](https://worldhealthorg-my.sharepoint.com/:f:/g/personal/hiattt_who_int/ErIgxmhw515GiNnWOkFTyp8BtHwbnOMHtKpJKkh7tz9NuA?e=4X6Phg)
