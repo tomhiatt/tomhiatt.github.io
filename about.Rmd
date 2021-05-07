@@ -1,0 +1,11 @@
+---
+title: " "
+pagetitle: "Tom Hiatt"
+---
+
+<link rel="stylesheet" href="styles.css" type="text/css">
+<link rel="stylesheet" href="academicicons/css/academicons.min.css"/>
+
+
+
+Much thanks to [Emily Zabor](https://www.emilyzabor.com/) for the [tutorial](https://www.emilyzabor.com/tutorials/rmarkdown_websites_tutorial.html) to build this web site.

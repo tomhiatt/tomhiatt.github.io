@@ -24,6 +24,8 @@ navbar:
       href: https://twitter.com/Tom_Hiatt
     - icon: fa-linkedin fa-lg
       href: https://www.linkedin.com/in/tom-hiatt-8180b037/
+    - icon: fa-info fa-lg
+      href: about.html
 output:
   html_document:
     theme: lumen
