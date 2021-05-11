@@ -10,7 +10,7 @@ pagetitle: "Tom Hiatt"
 
 ![](https://stackexchange.com/users/flair/159039.png)
 
-
+I've developed and deployed five mobile apps with associated web apps, two dedicated web apps and assisted with many others.
 
 
 

@@ -9,3 +9,5 @@ pagetitle: "Tom Hiatt"
 
 
 Much thanks to [Emily Zabor](https://www.emilyzabor.com/) for the [tutorial](https://www.emilyzabor.com/tutorials/rmarkdown_websites_tutorial.html) to build this web site.
+
+See more juicy tidbits [here](extras.html)
