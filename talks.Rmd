@@ -6,7 +6,11 @@ pagetitle: "Tom Hiatt"
 <link rel="stylesheet" href="styles.css" type="text/css">
 <link rel="stylesheet" href="academicicons/css/academicons.min.css"/>
 
+<<<<<<< HEAD
 ### All presentations are intended for re-use. Feel free to download, adapt and share.
+=======
+### All presentations are intended for re-use. Feel free to download adapt and share.
+>>>>>>> 5a44576741d474dd0b95fd8c7c04fbdc32be499d
 
 [Presentation library](https://worldhealthorg-my.sharepoint.com/:f:/g/personal/hiattt_who_int/ErIgxmhw515GiNnWOkFTyp8BtHwbnOMHtKpJKkh7tz9NuA?e=4X6Phg)
 
