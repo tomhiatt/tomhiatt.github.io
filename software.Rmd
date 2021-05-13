@@ -12,5 +12,18 @@ pagetitle: "Tom Hiatt"
 
 I've developed and deployed five mobile apps with associated web apps, two dedicated web apps and assisted with many others.
 
+<br>
 
+# Highlights
+
+<br>
+
+## The End TB App Suite
+<iframe width="560" height="315" src="https://www.youtube.com/embed/FmEJZ4LZldU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<br>
+
+## **COVID**KAYA
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/8n6eDKUgYEA?start=58" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 

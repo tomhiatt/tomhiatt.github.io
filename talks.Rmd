@@ -6,6 +6,22 @@ pagetitle: "Tom Hiatt"
 <link rel="stylesheet" href="styles.css" type="text/css">
 <link rel="stylesheet" href="academicicons/css/academicons.min.css"/>
 
-### All presentations are open for re-use. Enjoy.
+### All presentations are intended for re-use. Feel free to download, adapt and share.
 
 [Presentation library](https://worldhealthorg-my.sharepoint.com/:f:/g/personal/hiattt_who_int/ErIgxmhw515GiNnWOkFTyp8BtHwbnOMHtKpJKkh7tz9NuA?e=4X6Phg)
+
+# Selected presentations  
+<br>
+
+## TB Preventive Treatment Webinar
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/1CSfJgC6U-Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>  
+
+<br>
+
+## Digital solutions for public health
+
+<iframe width="560" height="315" src="files/digiconpres2.html" title="This presentation" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> 
+
+[View fullscreen](files/digiconpres2.html)
+

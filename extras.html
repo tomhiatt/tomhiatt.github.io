@@ -19,6 +19,9 @@
 <script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<script src="site_libs/jqueryui-1.11.4/jquery-ui.min.js"></script>
+<link href="site_libs/tocify-1.9.1/jquery.tocify.css" rel="stylesheet" />
+<script src="site_libs/tocify-1.9.1/jquery.tocify.js"></script>
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
 <link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
 <script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
@@ -262,6 +265,69 @@ $(document).ready(function () {
 
 
 
+<style type="text/css">
+
+#TOC {
+  margin: 25px 0px 20px 0px;
+}
+@media (max-width: 768px) {
+#TOC {
+  position: relative;
+  width: 100%;
+}
+}
+
+@media print {
+.toc-content {
+  /* see https://github.com/w3c/csswg-drafts/issues/4434 */
+  float: right;
+}
+}
+
+.toc-content {
+  padding-left: 30px;
+  padding-right: 40px;
+}
+
+div.main-container {
+  max-width: 1200px;
+}
+
+div.tocify {
+  width: 20%;
+  max-width: 260px;
+  max-height: 85%;
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  div.tocify {
+    width: 25%;
+  }
+}
+
+@media (max-width: 767px) {
+  div.tocify {
+    width: 100%;
+    max-width: none;
+  }
+}
+
+.tocify ul, .tocify li {
+  line-height: 20px;
+}
+
+.tocify-subheader .tocify-item {
+  font-size: 0.90em;
+}
+
+.tocify .list-group-item {
+  border-radius: 0px;
+}
+
+
+</style>
+
+
 
 </head>
 
@@ -269,6 +335,16 @@ $(document).ready(function () {
 
 
 <div class="container-fluid main-container">
+
+
+<!-- setup 3col/9col grid for toc_float and main content  -->
+<div class="row-fluid">
+<div class="col-xs-12 col-sm-4 col-md-3">
+<div id="TOC" class="tocify">
+</div>
+</div>
+
+<div class="toc-content col-xs-12 col-sm-8 col-md-9">
 
 
 
@@ -354,26 +430,31 @@ $(document).ready(function () {
 </div>
 
 
-<p>Here are some interesting things from my former life.</p>
-<div id="film" class="section level2">
-<h2>Film</h2>
+<p><link rel="stylesheet" href="academicicons/css/academicons.min.css"/></p>
+<p>Here are some interesting things from my former life. <br></p>
+<div id="film" class="section level1">
+<h1>Film</h1>
 <p>I worked as first assistant director on a full-length student film. With a handsome cameo as well (see if you can spot me in the white truck at 16:40). Beautiful. Emotionally heavy, but beautiful.</p>
 <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/5KsFo4XtPR0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
 </iframe>
+<p><br></p>
 </div>
 <div id="church-work" class="section level1">
 <h1>Church work</h1>
 <p>I served a two-year mission in the Philippines for my <a href="https://www.churchofjesuschrist.org/comeuntochrist">church</a> at age 19. That’s where I learned Tagalog.</p>
 <p><img src="images/000172.jpg" /></p>
 <p>I also served as the bishop (pastor) of our local congregation in Makati. Wonderful people.</p>
+<p><br></p>
 </div>
 <div id="art" class="section level1">
 <h1>Art</h1>
 <p>I received my undergraduate degree in visual art. Joined a student art show in Aukland. (Where did that sculpture end up?) Enjoyed a six-week field studies in New Zealand and Tonga.</p>
+<p><br></p>
 </div>
 <div id="performance" class="section level1">
 <h1>Performance</h1>
 <p>I performed improv comedy professionally (I guess as professional as it gets?) at <a href="https://www.comedysportzutah.com/">ComedySportz</a>. I even tried a bit of stand-up. Whew!</p>
+<p><br></p>
 </div>
 <div id="shiny" class="section level1">
 <h1>Shiny</h1>
@@ -383,6 +464,8 @@ $(document).ready(function () {
 
 
 
+</div>
+</div>
 
 </div>
 
@@ -415,6 +498,32 @@ $(document).ready(function () {
 
 <!-- code folding -->
 
+<script>
+$(document).ready(function ()  {
+
+    // move toc-ignore selectors from section div to header
+    $('div.section.toc-ignore')
+        .removeClass('toc-ignore')
+        .children('h1,h2,h3,h4,h5').addClass('toc-ignore');
+
+    // establish options
+    var options = {
+      selectors: "h1,h2,h3",
+      theme: "bootstrap3",
+      context: '.toc-content',
+      hashGenerator: function (text) {
+        return text.replace(/[.\\/?&!#<>]/g, '').replace(/\s/g, '_');
+      },
+      ignoreSelector: ".toc-ignore",
+      scrollTo: 0
+    };
+    options.showAndHide = true;
+    options.smoothScroll = true;
+
+    // tocify
+    var toc = $("#TOC").tocify(options).data("toc-tocify");
+});
+</script>
 
 <!-- dynamically load mathjax for compatibility with self-contained -->
 <script>
