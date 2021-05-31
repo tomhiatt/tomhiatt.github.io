@@ -6,7 +6,7 @@ pagetitle: "Tom Hiatt"
 <link rel="stylesheet" href="styles.css" type="text/css">
 <link rel="stylesheet" href="academicicons/css/academicons.min.css"/>
 
-<img src="https://orcid.org/sites/default/files/images/orcid_16x16.png"   align="left"> &nbsp;   [Orcid]("https://orcid.org/0000-0003-0056-1433")
+<img src="https://orcid.org/sites/default/files/images/orcid_16x16.png"   align="left"> &nbsp;   [Orcid](https://orcid.org/0000-0003-0056-1433)
 
 # Research
 
