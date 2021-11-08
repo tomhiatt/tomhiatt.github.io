@@ -55,7 +55,7 @@ Public health action
 
 
 
-# Monitoring and Evaluation
+# *Monitoring and Evaluation*
 
 <img align="left" src="images/gtbr13_cover_60px.jpg" style="margin-right: 10px">
 
@@ -105,4 +105,8 @@ WHO Press
 2009  
 <br> 
 
+# *Master's Thesis*
 
+**Neighbourhood-level risk factors and social determinants for tuberculosis disease in Metro Manila, Philippines: an ecological study using census and notification data** 
+ 
+[View PDF](files/Thesis.pdf)
