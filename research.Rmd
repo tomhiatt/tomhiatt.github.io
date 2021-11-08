@@ -109,4 +109,8 @@ WHO Press
 
 **Neighbourhood-level risk factors and social determinants for tuberculosis disease in Metro Manila, Philippines: an ecological study using census and notification data** 
  
+<<<<<<< HEAD
 [View PDF](files/Thesis.pdf)
+=======
+[View PDF](files/Thesis.html)
+>>>>>>> ce92d6d2fc5108f14a3eb021d5db25d9472d359a
