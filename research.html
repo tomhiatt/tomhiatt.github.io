@@ -13,17 +13,25 @@
 
 <title>Tom Hiatt</title>
 
-<script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
+<script src="site_libs/header-attrs-2.14/header-attrs.js"></script>
+<script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="site_libs/bootstrap-3.3.5/css/lumen.min.css" rel="stylesheet" />
 <script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<style>h1 {font-size: 34px;}
+       h1.title {font-size: 38px;}
+       h2 {font-size: 30px;}
+       h3 {font-size: 24px;}
+       h4 {font-size: 18px;}
+       h5 {font-size: 16px;}
+       h6 {font-size: 12px;}
+       code {color: inherit; background-color: rgba(0, 0, 0, 0.04);}
+       pre:not([class]) { background-color: white }</style>
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
 <link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
 <script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
-<link href="site_libs/anchor-sections-1.0/anchor-sections.css" rel="stylesheet" />
-<script src="site_libs/anchor-sections-1.0/anchor-sections.js"></script>
 <link href="site_libs/font-awesome-5.1.0/css/all.css" rel="stylesheet" />
 <link href="site_libs/font-awesome-5.1.0/css/v4-shims.css" rel="stylesheet" />
 
@@ -37,11 +45,6 @@
     </style>
 
 <style type="text/css">code{white-space: pre;}</style>
-<style type="text/css">
-  pre:not([class]) {
-    background-color: white;
-  }
-</style>
 <script type="text/javascript">
 if (window.hljs) {
   hljs.configure({languages: []});
@@ -54,32 +57,8 @@ if (window.hljs) {
 
 
 
-<style type="text/css">
-h1 {
-  font-size: 34px;
-}
-h1.title {
-  font-size: 38px;
-}
-h2 {
-  font-size: 30px;
-}
-h3 {
-  font-size: 24px;
-}
-h4 {
-  font-size: 18px;
-}
-h5 {
-  font-size: 16px;
-}
-h6 {
-  font-size: 12px;
-}
-.table th:not([align]) {
-  text-align: left;
-}
-</style>
+
+
 
 <link rel="stylesheet" href="styles.css" type="text/css" />
 
@@ -90,10 +69,6 @@ h6 {
   max-width: 940px;
   margin-left: auto;
   margin-right: auto;
-}
-code {
-  color: inherit;
-  background-color: rgba(0, 0, 0, 0.04);
 }
 img {
   max-width:100%;
@@ -110,40 +85,16 @@ button.code-folding-btn:focus {
 summary {
   display: list-item;
 }
+details > summary > p:only-child {
+  display: inline;
+}
+pre code {
+  padding: 0;
+}
 </style>
 
 
 <style type="text/css">
-/* padding for bootstrap navbar */
-body {
-  padding-top: 54px;
-  padding-bottom: 40px;
-}
-/* offset scroll position for anchor links (for fixed navbar)  */
-.section h1 {
-  padding-top: 59px;
-  margin-top: -59px;
-}
-.section h2 {
-  padding-top: 59px;
-  margin-top: -59px;
-}
-.section h3 {
-  padding-top: 59px;
-  margin-top: -59px;
-}
-.section h4 {
-  padding-top: 59px;
-  margin-top: -59px;
-}
-.section h5 {
-  padding-top: 59px;
-  margin-top: -59px;
-}
-.section h6 {
-  padding-top: 59px;
-  margin-top: -59px;
-}
 .dropdown-submenu {
   position: relative;
 }
@@ -171,7 +122,7 @@ body {
   margin-right: -10px;
 }
 .dropdown-submenu:hover>a:after {
-  border-left-color: #ffffff;
+  border-left-color: #adb5bd;
 }
 .dropdown-submenu.pull-left {
   float: none;
@@ -183,7 +134,7 @@ body {
 }
 </style>
 
-<script>
+<script type="text/javascript">
 // manage active state of menu based on current page
 $(document).ready(function () {
   // active menu anchor
@@ -194,10 +145,23 @@ $(document).ready(function () {
   var menuAnchor = $('a[href="' + href + '"]');
 
   // mark it active
-  menuAnchor.parent().addClass('active');
+  menuAnchor.tab('show');
 
   // if it's got a parent navbar menu mark it active as well
   menuAnchor.closest('li.dropdown').addClass('active');
+
+  // Navbar adjustments
+  var navHeight = $(".navbar").first().height() + 15;
+  var style = document.createElement('style');
+  var pt = "padding-top: " + navHeight + "px; ";
+  var mt = "margin-top: -" + navHeight + "px; ";
+  var css = "";
+  // offset scroll position for anchor links (for fixed navbar)
+  for (var i = 1; i <= 6; i++) {
+    css += ".section h" + i + "{ " + pt + mt + "}\n";
+  }
+  style.innerHTML = "body {" + pt + "padding-bottom: 40px; }\n" + css;
+  document.head.appendChild(style);
 });
 </script>
 
@@ -209,7 +173,6 @@ $(document).ready(function () {
   max-height: 500px;
   min-height: 44px;
   overflow-y: auto;
-  background: white;
   border: 1px solid #ddd;
   border-radius: 4px;
 }
@@ -276,7 +239,7 @@ $(document).ready(function () {
 <div class="navbar navbar-default  navbar-fixed-top" role="navigation">
   <div class="container">
     <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-bs-toggle="collapse" data-target="#navbar" data-bs-target="#navbar">
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
@@ -346,7 +309,7 @@ $(document).ready(function () {
   </div><!--/.container -->
 </div><!--/.navbar -->
 
-<div class="fluid-row" id="header">
+<div id="header">
 
 
 
@@ -354,24 +317,51 @@ $(document).ready(function () {
 </div>
 
 
-<p><link rel="stylesheet" href="styles.css" type="text/css"> <link rel="stylesheet" href="academicicons/css/academicons.min.css"/></p>
-<p><img src="https://orcid.org/sites/default/files/images/orcid_16x16.png"   align="left">   <a href="https://orcid.org/0000-0003-0056-1433">Orcid</a></p>
+<p><link rel="stylesheet" href="styles.css" type="text/css">
+<link rel="stylesheet" href="academicicons/css/academicons.min.css"/></p>
+<p><img src="https://orcid.org/sites/default/files/images/orcid_16x16.png"   align="left">
+  <a href="https://orcid.org/0000-0003-0056-1433">Orcid</a></p>
 <div id="research" class="section level1">
 <h1>Research</h1>
 <div id="publications" class="section level2">
 <h2><em>Publications</em></h2>
-<p><strong>Expansion of social protection is necessary towards zero catastrophic costs due to TB: the first national TB patient cost survey in the Philippines</strong> Jhiedon L. Florentino, Anna Marie Celine Garfin, Rosa Mia L. Arao, Donna Mae G. Gaviola, Carlos R. Tan, Rajendra Prasad Yadav, Tom Hiatt, Fukushi Morishita, Andrew Siroka, Takuya Yamanaka, Nobuyuki Nishikiori<br />
+<p><strong>Expansion of social protection is necessary towards zero
+catastrophic costs due to TB: the first national TB patient cost survey
+in the Philippines</strong> Jhiedon L. Florentino, Anna Marie Celine
+Garfin, Rosa Mia L. Arao, Donna Mae G. Gaviola, Carlos R. Tan, Rajendra
+Prasad Yadav, Tom Hiatt, Fukushi Morishita, Andrew Siroka, Takuya
+Yamanaka, Nobuyuki Nishikiori<br />
 Pre-print</p>
-<p><strong>Deriving and validating scoring tools for identifying TB patients facing catastrophic costs due to TB in the Philippines</strong> Takuya Yamanaka, Anna Marie Celina Garfin, Rosa Mia Arao, Fukushi Morishita, Tom Hiatt, Nobuyuki Nishikiori, Rajendra Prasad Yadav<br />
+<p><strong>Deriving and validating scoring tools for identifying TB
+patients facing catastrophic costs due to TB in the Philippines</strong>
+Takuya Yamanaka, Anna Marie Celina Garfin, Rosa Mia Arao, Fukushi
+Morishita, Tom Hiatt, Nobuyuki Nishikiori, Rajendra Prasad Yadav<br />
 Pre-print</p>
-<p><strong>Epidemiology and control of tuberculosis in the Western Pacific Region: update with 2013 case notification data</strong> Hiatt, T. and Nishikiori, N. Western Pacific surveillance and response journal : WPSAR 2016 | journal-article DOI: <a href="https://doi.org/10.5365/WPSAR.2015.6.4.010">10.5365/WPSAR.2015.6.4.010</a></p>
-<p><strong>Outcomes of Category I and II regimens in mono-and polyresistant tuberculosis cases in the Philippines</strong> Lew, W.-J. Harrington, K. Garfin, C. Islam, T. Hiatt, T. Nishikiori, N.<br />
-International Journal of Tuberculosis and Lung Disease 2016 | journal-article DOI: <a href="https://doi.org/10.5588/ijtld.15.0292">10.5588/ijtld.15.0292</a></p>
-<p><strong>Drug-resistant tuberculosis in the WHO Western Pacific Region</strong> Islam, T. Hiatt, T. Hennig, C. Nishikiori, N.<br />
-Western Pacific surveillance and response journal : WPSAR 2014 | journal-article DOI: <a href="https://doi.org/10.5365/WPSAR.2014.5.4.007">10.5365/WPSAR.2014.5.4.007</a></p>
-<p><strong>Epidemiology and control of tuberculosis in the Western Pacific Region: analysis of 2012 case notification data</strong> Hiatt, T. Nishikiori, N.<br />
-Western Pacific surveillance and response journal : WPSAR 2014 | journal-article DOI: <a href="https://doi.org/10.5365/WPSAR.2014.5.1.013">10.5365/WPSAR.2014.5.1.013</a></p>
-<p><strong>Market size and sales pattern of tuberculosis drugs in the Philippines</strong> Islam, T and van Weezenbeek, C and Vianzon, R and Garfin, AMCG and Hiatt, T and Lew, WJ and Tisocki, K<br />
+<p><strong>Epidemiology and control of tuberculosis in the Western
+Pacific Region: update with 2013 case notification data</strong> Hiatt,
+T. and Nishikiori, N. Western Pacific surveillance and response journal
+: WPSAR 2016 | journal-article DOI: <a
+href="https://doi.org/10.5365/WPSAR.2015.6.4.010">10.5365/WPSAR.2015.6.4.010</a></p>
+<p><strong>Outcomes of Category I and II regimens in mono-and
+polyresistant tuberculosis cases in the Philippines</strong> Lew, W.-J.
+Harrington, K. Garfin, C. Islam, T. Hiatt, T. Nishikiori, N.<br />
+International Journal of Tuberculosis and Lung Disease 2016 |
+journal-article DOI: <a
+href="https://doi.org/10.5588/ijtld.15.0292">10.5588/ijtld.15.0292</a></p>
+<p><strong>Drug-resistant tuberculosis in the WHO Western Pacific
+Region</strong> Islam, T. Hiatt, T. Hennig, C. Nishikiori, N.<br />
+Western Pacific surveillance and response journal : WPSAR 2014 |
+journal-article DOI: <a
+href="https://doi.org/10.5365/WPSAR.2014.5.4.007">10.5365/WPSAR.2014.5.4.007</a></p>
+<p><strong>Epidemiology and control of tuberculosis in the Western
+Pacific Region: analysis of 2012 case notification data</strong> Hiatt,
+T. Nishikiori, N.<br />
+Western Pacific surveillance and response journal : WPSAR 2014 |
+journal-article DOI: <a
+href="https://doi.org/10.5365/WPSAR.2014.5.1.013">10.5365/WPSAR.2014.5.1.013</a></p>
+<p><strong>Market size and sales pattern of tuberculosis drugs in the
+Philippines</strong> Islam, T and van Weezenbeek, C and Vianzon, R and
+Garfin, AMCG and Hiatt, T and Lew, WJ and Tisocki, K<br />
 Public health action 2013 | journal-article</p>
 </div>
 </div>
@@ -410,10 +400,10 @@ epidemiology, strategy, financing. WHO report 2009 WHO Press<br />
 </div>
 <div id="masters-thesis" class="section level1">
 <h1><em>Master’s Thesis</em></h1>
-<p><strong>Neighbourhood-level risk factors and social determinants for tuberculosis disease in Metro Manila, Philippines: an ecological study using census and notification data</strong></p>
-
+<p><strong>Neighbourhood-level risk factors and social determinants for
+tuberculosis disease in Metro Manila, Philippines: an ecological study
+using census and notification data</strong></p>
 <p><a href="files/Thesis.pdf">View PDF</a></p>
-
 </div>
 
 
@@ -443,7 +433,7 @@ $(document).ready(function () {
 
 $(document).ready(function () {
   $('.tabset-dropdown > .nav-tabs > li').click(function () {
-    $(this).parent().toggleClass('nav-tabs-open')
+    $(this).parent().toggleClass('nav-tabs-open');
   });
 });
 </script>
