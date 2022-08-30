@@ -6,7 +6,7 @@ pagetitle: "Tom Hiatt"
 <link rel="stylesheet" href="styles.css" type="text/css">
 <link rel="stylesheet" href="academicicons/css/academicons.min.css"/>
 
-I like to find opportunities to help others especially in the important work of public health. Below are some examples of tools and skills that can make public health work even more effective.
+I seek out opportunities to help others especially in the important work of public health. Below are some examples of tools and skills that can make public health work even more effective.
 
 ## Introduction to R
 - 2019: Department of Health Staff
