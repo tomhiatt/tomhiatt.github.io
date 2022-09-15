@@ -6,6 +6,26 @@ pagetitle: "Tom Hiatt"
 <link rel="stylesheet" href="styles.css" type="text/css">
 <link rel="stylesheet" href="academicicons/css/academicons.min.css"/>
 
+# Facilitation
+
+The brainpower in a room is cumulatively immense and can be applied to solve big problems. But that power must be channeled and guided to make sure it's additive and not contradictory. Great facilitation keeps people engaged, caters to different learning and interaction styles, and focuses energy on the task at hand. I've facilitated several staff retreats and technical meetings to maximize the potential of participants.
+
+## Staff retreats
+- 2021: WHO Philippines Communicable Diseases Team Retreat
+- 2020: WHO Philippines Country Office Staff Retreat
+- 2019: WHO Western Pacific Region All-Staff Retreat
+- 2018: WHO Western Pacific Region Division of Health Security and Emergencies Staff Retreat
+- 2017: WHO Western Pacific Region Division of Health Systems Strengthening Staff Retreat
+- 2016: WHO Western Pacific Region Division of Communicable Diseases Staff Retreat
+
+## Public Health meetings
+- 2019: Race to End TB Campaign launch
+- 2018: International Health Regulations Simulation Exercise and After Action Reviews
+
+<br>
+
+# Teaching
+
 I seek out opportunities to help others especially in the important work of public health. Below are some examples of tools and skills that can make public health work even more effective.
 
 ## Introduction to R
