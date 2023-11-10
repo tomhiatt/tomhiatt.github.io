@@ -6,10 +6,10 @@ pagetitle: "Tom Hiatt"
 <link rel="stylesheet" href="styles.css" type="text/css">
 <link rel="stylesheet" href="academicicons/css/academicons.min.css"/>
 
-Public health professionals give a lot of presentations. Whether for an audience of one or one thousand, these represent precious opportunities to shape the way people work and actually change the world. I have taken a personal vow of no boring presentations. No wordy slides that are forgettable before even reaching the presentation's end, much less the next day. No losing the audience to distractions. No more missed opportunities. I'm by no means perfect, but always trying to improve!
+Public health professionals are prolific presenters. Whether for an audience of one or one thousand, these represent precious opportunities to shape the way people work and can actually change the world. 
 
 
-### All my presentations are intended for re-use. Feel free to download, adapt and share. I hope you find them useful.
+### All my presentations are intended for re-use. Feel free to download, adapt and share. I hope you find them helpful.
 
 
 [See my presentation library](https://worldhealthorg-my.sharepoint.com/:f:/g/personal/hiattt_who_int/ErIgxmhw515GiNnWOkFTyp8BtHwbnOMHtKpJKkh7tz9NuA?e=4X6Phg)

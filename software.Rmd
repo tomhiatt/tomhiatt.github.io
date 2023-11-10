@@ -11,11 +11,11 @@ pagetitle: "Tom Hiatt"
 ![](https://stackexchange.com/users/flair/159039.png)
 <br>
 
-Public health rests on the effectiveness of good policies and practices. These policies are built on solid evidence. This evidence comes initially from research projects, but another important source is from operating public health programmes. This data can be generated through dutiful meticulous data collection (thank you health workers!) *and also* as a bi-product of useful tools (thanks robots!) helping health workers and public health practitioners do their day-to-day work. 
+Public health rests on the effectiveness of good policies and practices. These policies are built on solid evidence. This evidence comes initially from research projects, but another important source is from operating public health programmes. This data can be generated through dutiful meticulous data collection (thanks to health workers) *and also* as a bi-product of useful tools (thanks to well-designed technology) helping health workers and public health practitioners do their day-to-day work. 
 
 This is the ideal I'm trying to create. 
 
-Busy professionals use digital tools that support their work, which in turn do their recording and reporting for them making their jobs even easier! There are indeed some reporting that simply must be done on its own, but I believe the vast majority could be generated automatically while using other tools.
+Busy professionals use digital tools that support their work, which in turn do their recording and reporting for them making their jobs even easier. Indeed, some reporting simply must be done on its own, but the vast majority can be generated automatically while using other tools.
 
 In pursuing this ideal, I've developed and deployed five mobile apps with associated web apps, two other dedicated web apps and assisted with many other solutions. 
 

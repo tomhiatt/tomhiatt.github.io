@@ -13,10 +13,10 @@ pagetitle: "Tom Hiatt"
 ## *Publications*
 
 **Expansion of social protection is necessary towards zero catastrophic costs due to TB: the first national TB patient cost survey in the Philippines** Jhiedon L. Florentino, Anna Marie Celine Garfin, Rosa Mia L. Arao, Donna Mae G. Gaviola, Carlos R. Tan, Rajendra Prasad Yadav, Tom Hiatt, Fukushi Morishita, Andrew Siroka, Takuya Yamanaka, Nobuyuki Nishikiori  
-Pre-print
+DOI: [10.1371/journal.pone.0264689](https://doi.org/10.1371/journal.pone.0264689)
 
-**Deriving and validating scoring tools for identifying TB patients facing catastrophic costs due to TB in the Philippines** Takuya Yamanaka, Anna Marie Celina Garfin, Rosa Mia Arao, Fukushi Morishita, Tom Hiatt, Nobuyuki Nishikiori, Rajendra Prasad Yadav  
-Pre-print
+**Scoring tools to identify TB patients facing catastrophic costs in the Philippines** Takuya Yamanaka, Anna Marie Celina Garfin, Rosa Mia Arao, Fukushi Morishita, Tom Hiatt, Nobuyuki Nishikiori, Rajendra Prasad Yadav  
+DOI: [10.5588/pha.23.0014](https://doi.org/10.5588/pha.23.0014)
 
 **Epidemiology and control of tuberculosis in the Western Pacific Region: update with 2013 case notification data** Hiatt, T. and Nishikiori, N.
 Western Pacific surveillance and response journal : WPSAR
