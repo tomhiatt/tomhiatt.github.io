@@ -1,0 +1,20 @@
+---
+title: " "
+pagetitle: "Tom Hiatt"
+---
+
+<link rel="stylesheet" href="styles.css" type="text/css">
+<link rel="stylesheet" href="academicicons/css/academicons.min.css"/>
+
+# Bio
+
+## Summary
+
+Tom Hiatt is an epidemiologist at the World Health Organization Office for the Philippines. He has over 17 years’ experience at WHO focusing on tuberculosis, leprosy, rabies and health emergencies including the COVID-19 response.
+
+## Full
+Tom Hiatt is an epidemiologist at the World Health Organization. He has been serving the member countries of WHO for over 17 years at the headquarters office in Geneva, Switzerland, as well as the Regional Office for the Western Pacific and the Philippines Country Office. He earned his master’s degree in epidemiology from the London School of Hygiene and Tropical Medicine after completing his undergraduate work in art and film at Brigham Young University in the United States.
+
+Mr Hiatt’s work has covered a variety of areas in health. As part of the monitoring and evaluation team of the Global Tuberculosis Programme, he managed the data flow and analysis for five annual Global TB reports (even designing the cover art!) He has promoted digital solutions for health data management and collaboration for rabies, leprosy, health systems and health emergencies. He now serves as the Technical Officer for Tuberculosis at the WHO Philippines country office. He is passionate for making data actionable to improve health and save lives. 
+
+Mr Hiatt has lived in the Philippines for over ten years and speaks fluent Tagalog. He currently resides in Laguna with his wife and six children, (one he adopted from a Manila orphanage who was a tuberculosis patient at the time). He strives to improve the lives of Filipinos any way he can.
